@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/luxPlus/static/css/main.7bb172e6.css",
+    "main.js": "/luxPlus/static/js/main.f4543cf5.js",
+    "index.html": "/luxPlus/index.html",
+    "main.7bb172e6.css.map": "/luxPlus/static/css/main.7bb172e6.css.map",
+    "main.f4543cf5.js.map": "/luxPlus/static/js/main.f4543cf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bb172e6.css",
+    "static/js/main.f4543cf5.js"
+  ]
+}
