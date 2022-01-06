@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 0.7rem;
+  background-color: #0d0b0c;
+  background-size: 100vh;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+  display: flexbox;
+  margin-top: 0.5rem;
+  align-items: center;
+  justify-content: space-evenly;
+}

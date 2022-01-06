@@ -1,0 +1,27 @@
+.container {
+  display: inline-block;
+  justify-content: space-evenly;
+  max-width: 15rem;
+}
+
+.movieShow {
+  align-content: center;
+}
+
+.movieShow > h4 {
+  text-align: center;
+  align-self: center;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.movieShow img {
+  max-width: 100%;
+  transform: scale(0.9);
+  object-fit: cover;
+}
+
+.movieShow > img:hover {
+  transform: scale(1);
+  transition: all ease 0.5s;
+}
