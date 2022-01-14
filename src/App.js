@@ -17,6 +17,11 @@ export default () => {
 
   return (
     <div className="page">
+      <nav>
+        <button>1960-1994</button>        
+        <button>1995-2010</button>        
+        <button>2011-2021</button>        
+      </nav>
       <section className="list">
         {movieList.map((item, key) => (
           <MovieShow key={key} nome={item.nome} poster={item.poster} />

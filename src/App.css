@@ -16,8 +16,32 @@ body {
 }
 
 div {
-  display: flexbox;
+  display: inline-block;
   margin-top: 0.5rem;
   align-items: center;
   justify-content: space-evenly;
+}
+
+nav {
+  display: inline-block;
+  overflow-x: hidden;
+  background-color: black;
+  width: 100vw;
+
+}
+
+nav button {
+  color: azure;
+  background-color: black;
+  text-align: center;
+  border-radius: .5rem;
+  border: none;
+  font-size: 2em;
+  margin: .4em;
+  padding: .8em 2em;
+}
+
+nav button:hover {
+  color: #0d0b0c;
+  background-color: aliceblue;
 }
