@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from 'react'
-import Data from './Data'
 import MovieShow from './components/MovieShow'
 import './App.css'
+
+const data = require('./data.json');
 
 export default () => {
   const [movieList, setMovieList] = useState([])
 
   useEffect(() => {
     const loadAll = () => {
-      let list = Data.getMovieList()
+      let list = data
       setMovieList(list)
+      console.log(list)
     }
 
     loadAll()
@@ -28,8 +30,8 @@ export default () => {
       </nav>
       <section className="list">
         {movieList.map((item, key) => (
-          <MovieShow key={key} nome={item.nome} poster={item.poster} />
-        ))}
+          <MovieShow lista={item.listNumber} key={key} nome={item.title} poster={item.poster} />         
+          ))}
       </section>
     </div>
   )

@@ -1,7 +1,8 @@
 import React from 'react'
 import './MovieShow.css'
 
-export default ({ nome, poster }) => {
+
+export default ({ nome, poster, lista }) => {
   return (
     <div className="container">
       <div className="movieShow">
@@ -10,4 +11,5 @@ export default ({ nome, poster }) => {
       </div>
     </div>
   )
+  
 }
