@@ -21,9 +21,8 @@ body {
 
 nav {
   display: inline-flex;
-  flex-direction: row;
-  background-color: #010101;
-  min-width: 100vw;
+  background-color: #810101;
+  width: 100vw;
 
 }
 
@@ -45,7 +44,7 @@ nav ul {
 nav li {
   display: inline-block;
   list-style: none;
-  padding: 0 30px;
+  padding: 0 10px;
 }
 
 nav li:hover{
@@ -55,10 +54,10 @@ nav li:hover{
 nav button {
   color: azure;
   text-align: center;
-  font-size: 1em;
+  font-size: 15px;
   border-top: none;
   border-color: greenyellow;
-  padding: 0 3em;
+  padding: 0 30px;
   
 
 }
