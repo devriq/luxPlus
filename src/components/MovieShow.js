@@ -2,12 +2,12 @@ import React from 'react'
 import './MovieShow.css'
 
 
-export default ({ nome, poster, lista }) => {
+export default ({ status, nome, poster }) => {
   return (
     <div className="container">
       <div className="movieShow">
-        <img src={poster} alt="poster" />
-        <h4>{nome}</h4>
+        <img className={status} src={poster} alt="poster" />
+        <h4 className={status}>{nome}</h4>
       </div>
     </div>
   )

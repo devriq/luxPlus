@@ -30,7 +30,7 @@ export default () => {
       </nav>
       <section className="list">
         {movieList.map((item, key) => (
-          <MovieShow lista={item.listNumber} key={key} nome={item.title} poster={item.poster} />         
+          <MovieShow status={item.status} key={key} nome={item.title} poster={item.poster} />         
           ))}
       </section>
     </div>

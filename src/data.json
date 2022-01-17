@@ -1,17 +1,129 @@
 [
     {
-        "title": "Psicose",
-        "poster": "https://www.themoviedb.org/t/p/w500/vNayuJV4gqtjhWeIeFYIO834rOd.jpg",
-        "overview": "Marion Crane é uma secretária que rouba 40 mil dólares da imobiliária onde trabalha para se casar e começar uma nova vida. Durante a fuga à carro, ela enfrenta uma forte tempestade, erra o caminho e chega em um velho hotel. O estabelecimento é administrado por um sujeito atencioso chamado Norman Bates, que nutre um forte respeito e temor por sua mãe. Marion decide passar a noite no local, sem saber o perigo que a cerca.",
-        "year": "1960-06-22",
-        "listNumber": "1",
+        "title": "Pânico 4",
+        "poster": "https://www.themoviedb.org/t/p/w500/qqqE8jR2bzZldtW5lJwKhHMxkx0.jpg",
+        "overview": "Faz muitos anos que o assassino Ghostface deixou um rastro mortal pela cidade de Woodsboro. A fim de superar o trauma desses terríveis acontecimentos, Sidney Prescott escreveu um livro de auto-ajuda. Ela retorna à Woodsboro para lançar seu livro e reencontra os velhos amigos Gale Weathers e o Xerife Dewey. No entanto, a chegada de Sidney também provoca o retorno de Ghostface, colocando Sidney e todos que ama em perigo.",
+        "year": "2011-04-11",
+        "listNumber": "3",
         "status": "yes"
+    },
+    {
+        "title": "Você é o Próximo",
+        "poster": "https://www.themoviedb.org/t/p/w500/hOTO2WgaGGj039DnLhb9RUoDz8q.jpg",
+        "overview": "Durante um encontro aparentemente inocente, a família Davison sofre um ataque de natureza sádica. Quando Crispian Davison traz sua nova namorada pata celebrar o aniversário de casamento de seus pais, o jantar familiar é destroçado assim que uma gangue de misteriosos assassinos usando máscaras de animais começa a caçar a família com precisão brutal. Infelizmente para os matadores, no entanto, uma das vítimas parece guardar um talento secreto e inesperado para reagir à altura..",
+        "year": "2011-09-10",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "A Hora da Escuridão",
+        "poster": "https://www.themoviedb.org/t/p/w500/rsd92fdY2AnnAItoU0OZSpGYnPX.jpg",
+        "overview": "Cinco jovens estão de férias em Moscou quando a cidade é alvo dum ataque por extraterrestres, em busca de energia elétrica. Depressa outras cidades começam a ser atingidas, e os 5 amigos vão tentar sobreviver às criaturas que transformaram Moscou numa cidade quase deserta...",
+        "year": "2011-12-22",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "A Mulher de Preto",
+        "poster": "https://www.themoviedb.org/t/p/w500/g167H1JgOLAVx7YgHctBIq5kHeI.jpg",
+        "overview": "O jovem advogado Arthur Kipps viaja para um remoto vilarejo para tratar dos papéis de um cliente recém-falecido. Na cidade pequena e mal-assombrada, ele vê uma mulher misteriosa vestida apenas de preto, uma aparição que o leva a descobrir um terrível segredo.",
+        "year": "2012-02-03",
+        "listNumber": "3",
+        "status": "no"
     },
     {
         "title": "O Segredo da Cabana",
         "poster": "https://www.themoviedb.org/t/p/w500/raOYAZFVpWyL9teEzLDEwtP8lm9.jpg",
         "overview": "Cinco amigos fazem uma pausa em uma cabana remota, onde conseguem mais do que esperavam, descobrindo a verdade atrás da cabana na floresta.",
         "year": "2012-04-12",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "Uma Noite de Crime",
+        "poster": "https://www.themoviedb.org/t/p/w500/sKKW81Rq5I2bJXwyEEZVyXwGft4.jpg",
+        "overview": "Na América, em um futuro próximo, o governo sancionou um período anual de 12 horas, permitindo qualquer atividade criminal, incluindo assassinato. Nessa noite dominada pela violência e por uma epidemia de crime, uma família é testada para ver até aonde irá para se proteger, quando o cruel mundo exterior entrar em sua casa.",
+        "year": "2013-05-31",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "Tumba Aberta",
+        "poster": "https://www.themoviedb.org/t/p/w500/c2vEyiJDzzNbqTYOx5VYT9w7IRt.jpg",
+        "overview": "John acorda no meio de uma pilha de cadáveres sem saber como foi parar ali. Aterrorizado, ele encontra um grupo de estranhos também sem recordação alguma do que houve. Eles precisam confiar uns nos outros para desvendar o mistério que os cerca.",
+        "year": "2013-08-13",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Sobrevivente",
+        "poster": "https://www.themoviedb.org/t/p/w500/i87ZhhIXO4Z15np1lhGNQXLzwBS.jpg",
+        "overview": "Jenn, uma executiva que vive ocupada, é, finalmente, convencida pelo seu namorado Alex a embarcar com ele em uma viagem para o campo, a fim de fugir das pressões da cidade grande. Após um inquietante encontro com um estranho homem, Brad, em sua primeira noite no meio da floresta, eles seguem viagem. Mas depois de três dias, os dois se encontram perdidos, sem comida ou água. Até que eles percebem que entraram no território de um urso predatório.",
+        "year": "2014-03-20",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Assim na Terra Como no Inferno",
+        "poster": "https://www.themoviedb.org/t/p/w500/19K0a2bKxQsh6MCQOIGyV3xbv1F.jpg",
+        "overview": "Um grupo de arqueólogos está em busca de um tesouro perdido e, para isso, explora o desconhecido labirinto de ossos nas catacumbas abaixo de Paris. Aquela região, conhecida como a cidade dos mortos, revela um segredo que mexerá com a psique humana de modo que os demônios pessoais de cada um voltarão para assombrá-los.",
+        "year": "2014-08-14",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "Regressão",
+        "poster": "https://www.themoviedb.org/t/p/w500/ogfTGAY6fUOSAFaKvAtNsCnrRM.jpg",
+        "overview": "Em Minnesota na década de 1980, um homem (Ethan Hawke) é preso por abusar sexualmente da própria filha (Emma Watson). Embora não se lembre do evento, ele se declara culpado. Auxiliado por psicólogos, ele revive os momentos e até acusa um policial de ter participado do crime, porém, ele começa a desconfiar da existência de uma conspiração nacional.",
+        "year": "2015-10-01",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Terror nos Bastidores",
+        "poster": "https://www.themoviedb.org/t/p/w500/62dY02Dp8CFySosyrn1A4kBCYxu.jpg",
+        "overview": "Max (Taissa Farmiga), uma garota do ensino médio, é filha de uma já falecida atriz de filmes B de terror. Em uma sessão especial do grande sucesso de sua mãe, um acidente ocorre na sala de cinema e, sem explicação, ela e seus amigos vão parar dentro da trama. Perseguidos por um brutal assassino, eles precisam encontrar uma maneira de vencer o vilão e retornar ao mundo real.",
+        "year": "2015-10-09",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "Dia de Trabalho Mortal",
+        "poster": "https://www.themoviedb.org/t/p/w500/2txZz1LixqsFiI0REP4ONuUnhF9.jpg",
+        "overview": "Tudo corria bem nas Indústrias Belko, mais um dia normal de trabalho. No entanto, tudo muda repentinamente para os funcionários da empresa quando eles descobrem que, na verdade, são cobaias humanas e que terão que seguir as ordens de uma misteriosa voz, que se anuncia apenas através dos alto-falantes instalados no prédio, mesmo que isso signifique matar os colegas de trabalho para sobreviver.",
+        "year": "2016-03-17",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "O Homem nas Trevas",
+        "poster": "https://www.themoviedb.org/t/p/w500/tBtjyqf8oIdeFkis41bdaJzewBh.jpg",
+        "overview": "Três jovens ladrões lutam por suas vidas depois de invadir a casa de um homem cego que tem seu lado obscuro.",
+        "year": "2016-06-08",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Demônio de Neon",
+        "poster": "https://www.themoviedb.org/t/p/w500/tZzE1utUG5psYaT58cZbrrx7nyx.jpg",
+        "overview": "Jesse (Elle Fannng) é uma jovem de 18 anos que acaba de chegar a Los Angeles. Dona de uma beleza natural impressionante, ela tenta a sorte como modelo profissional. Após tirar algumas fotos mórbidas para um jovem fotógrafo, é contratada por uma conceituada agência de modelos. Bastante ingênua, ela passa a lidar com o ego sempre inflado das demais modelos e também com a maquiadora Ruby (Jena Malone), que possui intenções ocultas com a jovem.",
+        "year": "2016-06-08",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "Águas Rasas",
+        "poster": "https://www.themoviedb.org/t/p/w500/eZxPtVGK4oix9BYCnD4EDKjKUnk.jpg",
+        "overview": "Nancy (Blake Lively) é uma jovem médica que está tendo de lidar com a recente perda da mãe. Seguindo uma dica sua, ela vai surfar em uma paradisíaca praia isolada, onde acaba sendo atacada por um enorme tubarão. Desesperada e ferida, ela consegue se proteger temporariamente em um recife de corais, mas precisa encontrar logo uma maneira de sair da água.",
+        "year": "2016-06-24",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Invasão Zumbi",
+        "poster": "https://www.themoviedb.org/t/p/w500/QqHtwk0oHYed26zra9WGQGyBSm.jpg",
+        "overview": "Em um trem de alta velocidade com destino à cidade de Busan, um vírus que transforma as pessoas em zumbis, se espalha. A cidade conseguiu com sucesso defender a epidemia, agora eles devem lutar pelas suas sobrevivências.",
+        "year": "2016-07-20",
         "listNumber": "3",
         "status": "yes"
     },
@@ -24,11 +136,123 @@
         "status": "no"
     },
     {
+        "title": "Refém do Medo",
+        "poster": "https://www.themoviedb.org/t/p/w500/qXIGq6ddQhIYe4Z7A86nZ1qjUME.jpg",
+        "overview": "Uma psicóloga infantil e viúva, que vive em uma casa isolada na zona rural de Nova Inglaterra, nos Estados Unidos, precisa encontrar uma maneira de resgatar um menino em meio a uma severa tempestade de inverno.",
+        "year": "2016-11-11",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Corra!",
+        "poster": "https://www.themoviedb.org/t/p/w500/A0RoSZh8PEYJgDMgM2EV7Ycz3dR.jpg",
+        "overview": "Agora que Chris e sua namorada, Rose, chegaram à fase de conhecer os pais no namoro, ela o convida para um fim de semana no interior com Missy e Dean. A princípio, Chris acha que o comportamento excessivamente agradável dos dois como tentativas nervosas de lidar com o relacionamento inter-racial da filha, mas, conforme o fim de semana avança, uma série de descobertas cada vez mais perturbadoras o levam a uma verdade que ele jamais poderia ter imaginado.",
+        "year": "2017-02-24",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "Cargo",
+        "poster": "https://www.themoviedb.org/t/p/w500/cdPSUck4tBRvRu6DFk6XciDrssn.jpg",
+        "overview": "Andy (Martin Freeman) corre contra o tempo para salvar sua filha. Infectado por um vírus de uma pandemia zumbi, ele tem apenas 48 horas para encontrar um lugar seguro a fim de proteger a criança. A salvação que o pai procura pode estar em um tribo aborígene isolada, mas para ter acesso ao grupo, ele terá que ajudar uma jovem indígena em uma missão perigosa.",
+        "year": "2017-10-06",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Vende-se Esta Casa",
+        "poster": "https://www.themoviedb.org/t/p/w500/tAcsTHfzYwxe0QkarzHqNfnqvxa.jpg",
+        "overview": "Depois de uma tragédia, uma mãe e o filho adolescente vão viver nas montanhas numa casa desocupada de parentes. Lá, forças aterrorizantes e misteriosas os aguardam.",
+        "year": "2018-01-19",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Aniquilação",
+        "poster": "https://www.themoviedb.org/t/p/w500/5DUGK2WvnyiBJwKOYhTR9FHx2Mh.jpg",
+        "overview": "Depois que seu marido desaparece em uma missão secreta, a bióloga Lena embarca numa expedição à uma misteriosa região interditada pelo governo dos EUA.",
+        "year": "2018-02-22",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Verdade ou Desafio",
+        "poster": "https://www.themoviedb.org/t/p/w500/oEIeZE4oBSTKjBMxQWNdGdI13a0.jpg",
+        "overview": "Olivia, Lucas e um grupo de amigos viajam ao México como uma despedida antes da formatura. Lá, um estranho convence um dos estudantes a jogar um aparentemente inofensivo jogo de verdade ou desafio com os outros. Ao começar, o jogo desperta algo maligno - um demônio que força os amigos a compartilharem segredos sombrios e confrontarem seus medos mais profundos. A regra é simples, porém cruel: fale a verdade ou morra, faça o desafio ou morra, e se parar de jogar, também morre.",
+        "year": "2018-04-12",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Hereditário",
+        "poster": "https://www.themoviedb.org/t/p/w500/ysdkXpoeDYLpgodiNGBW29S4o2U.jpg",
+        "overview": "Após a morte da reclusa avó, a família Graham começa a desvendar algumas coisas. Mesmo após a partida da matriarca, ela permanece como se fosse uma sombra sobre a família, especialmente sobre a solitária neta adolescente, Charlie, por quem ela sempre manteve uma fascinação não usual. Com um crescente terror tomando conta da casa, a família explora lugares mais escuros para escapar do infeliz destino que herdaram.",
+        "year": "2018-06-07",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "Suspíria: A Dança do Medo",
+        "poster": "https://www.themoviedb.org/t/p/w500/qklGv6ZvmIpEP7RTInbngyKUT5V.jpg",
+        "overview": "As trevas tomam conta de uma renomada companhia de dança, envolvendo a diretora artística do grupo, uma ambiciosa jovem dançarina e um psicoterapeuta de luto. Alguns irão sucumbir ao pesadelo. Outros irão finalmente despertar.",
+        "year": "2018-10-11",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "O Silêncio",
+        "poster": "https://www.themoviedb.org/t/p/w500/pE0rAuyupUL326JsgG5FwK7a2tb.jpg",
+        "overview": "Em um mundo pós-apocalíptico, uma família luta para sobreviver em um cenário completamente devastado por algum tipo de espécie desconhecida. Aprendendo a caçar para comer, eles contam apenas uns com os outros em um planeta onde agora quase ninguém é confiável. Enquanto a iminência de um desconhecido ataque final assola seus pensamentos, só lhes resta tentar entender as circunstâncias.",
+        "year": "2019-05-16",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Midsommar: O Mal Não Espera a Noite",
+        "poster": "https://www.themoviedb.org/t/p/w500/sZ6Bjq1VVfiTrALlev0ganz7uka.jpg",
+        "overview": "Dani e Christian formam um jovem casal americano com um relacionamento prestes a desmoronar. Mas depois que uma tragédia familiar os mantém juntos, Dani, que está de luto, convida-se para se juntar a Christian e seus amigos em uma viagem para um festival de verão único em uma remota vila sueca. O que começa como férias despreocupadas de verão em uma terra de luz eterna toma um rumo sinistro quando os moradores do vilarejo convidam o grupo a participar de festividades que tornam o paraíso pastoral cada vez mais preocupante e visceralmente perturbador.",
+        "year": "2019-07-03",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "Casamento Sangrento",
+        "poster": "https://www.themoviedb.org/t/p/w500/vWMXRFvpxxs5p0IKZdqWph10jIn.jpg",
+        "overview": "Grace acaba de se casar com o herdeiro milionário de uma família especializada em jogos de tabuleiro. Antes de realmente integrar a família, no entanto, ela é obrigada a participar de uma tradição familiar: um jogo de esconde-esconde pela mansão dos Le Domas. Aos poucos, Grace percebe que a brincadeira inocente é na verdade uma caçada sangrenta contra a recém-casada, em que todas as armas e golpes são permitidos para assassiná-la. A jovem terá a difícil missão de sobreviver aos ataques até o amanhecer.",
+        "year": "2019-08-21",
+        "listNumber": "3",
+        "status": "yes"
+    },
+    {
+        "title": "Vigiados",
+        "poster": "https://www.themoviedb.org/t/p/w500/gsOyXyBWMtzXXRQ3PVLSk8Fsvz5.jpg",
+        "overview": "Dois casais alugam uma casa para o que deveria ser um final de semana de celebração. No entanto, enquanto segredos são desenterrados, o quarteto começa a desconfiar que talvez não estejam sozinhos na casa.",
+        "year": "2020-07-23",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
+        "title": "Espiral: O Legado de Jogos Mortais",
+        "poster": "https://www.themoviedb.org/t/p/w500/jJ7eIqsVLtRwLCX6KeJNeQYjPar.jpg",
+        "overview": "Sob o comando do veterano da polícia Marcus, o detetive Ezekiel \"Zeke\" Banks se une ao seu parceiro novato Willem para desvendar uma série de assassinatos terríveis que estão acontecendo na cidade. Durante as investigações, Zeke acaba se envolvendo no mórbido jogo do assassino.",
+        "year": "2021-05-12",
+        "listNumber": "3",
+        "status": "no"
+    },
+    {
         "title": "A Lenda de Candyman",
         "poster": "https://www.themoviedb.org/t/p/w500/3HCrzTPjnPM8vJ882weWK3w9Clt.jpg",
         "overview": "Em um bairro pobre de Chicago, a lenda de um espírito assassino conhecido como Candyman assolou a população anos atrás. Agora, o local foi renovado e é lar de cidadãos de alta classe. Quando o espírito retorna, os novos habitantes também serão obrigados a enfrentar a ira de Candyman.",
         "year": "2021-08-25",
         "listNumber": "3",
         "status": "no"
+    },
+    {
+        "title": "Maligno",
+        "poster": "https://www.themoviedb.org/t/p/w500/oGzaG5vqSJkIiJmxcJ8EKzfFad3.jpg",
+        "overview": "Madison passa a ter sonhos aterrorizantes de pessoas sendo brutalmente assassinadas e acaba descobrindo que, na verdade, são visões dos crimes enquanto acontecem. Aos poucos, ela percebe que esses assassinatos estão conectados a uma entidade do seu passado chamada Gabriel. Para impedir a criatura, Madison precisará investigar de onde ela surgiu e enfrentar seus traumas de infância.",
+        "year": "2021-09-01",
+        "listNumber": "3",
+        "status": "yes"
     }
 ]

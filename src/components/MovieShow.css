@@ -2,7 +2,7 @@
   display: inline-block;
   justify-content: space-evenly;
   max-width: 15rem;
-  
+  margin-bottom:2rem;
 }
 
 .movieShow {
@@ -12,15 +12,20 @@
 .movieShow > h4 {
   text-align: center;
   justify-content: center;
-  font-size: .9rem;
+  font-size: 1.1rem;
   margin: auto;
-  width: 95%;
+  width: 90%;
 }
 
 .movieShow img {
   max-width: 100%;
   transform: scale(0.9);
   object-fit: cover;
+}
+
+.yes {
+  filter:grayscale(1);
+  opacity: .3;
 }
 
 .movieShow > img:hover {
