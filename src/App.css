@@ -26,6 +26,7 @@ body {
 }
 
 .page {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
@@ -36,6 +37,7 @@ nav {
     top: 0;
   background-color: #010101;
   width: 100%;
+  z-index: 1;
   display: flex;
   flex-direction: row;
   align-items: center;
