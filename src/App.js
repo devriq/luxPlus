@@ -18,10 +18,7 @@ export default () => {
     loadAll()
   }, [])
 
-  function openModal() {
-    let modal = document.querySelector('.modal')
-    modal.style.display = 'flex';
-  }
+
   return (
     <div className="page">
       <Modal/>
@@ -36,7 +33,7 @@ export default () => {
       </nav>
       <section className="list">
         {movieList.map((item, key) => (
-          <MovieShow status={item.status} key={key} nome={item.title} poster={item.poster} />         
+          <MovieShow status={item.status} key={key} nome={item.title} poster={item.poster} overview={item.overview} />
           ))}
       </section>
     </div>
