@@ -1,11 +1,13 @@
 .modal {
-    margin: 3%;
     padding: 1%;
-    width: 90vw;
+    width: 90%;
     justify-content: center;
     display: none;
     background-color: greenyellow;
     position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
     z-index: 99;
     
 }
@@ -30,7 +32,7 @@
 #overview {
     background-color: black;
     text-align: justify;
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 1rem 2rem;
 }
 @media (max-width: 2096px) {
