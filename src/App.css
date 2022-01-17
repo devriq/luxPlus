@@ -31,7 +31,9 @@ body {
 }
 
 nav {
-  position: relative;
+  position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
   background-color: #010101;
   width: 100%;
   display: flex;
