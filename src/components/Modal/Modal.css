@@ -1,11 +1,12 @@
 .modal {
     padding: 1%;
-    width: 90%;
+    
+    width: 60%;
     justify-content: center;
     display: none;
     background-color: greenyellow;
     position: fixed;
-    top:50%;
+    top:60%;
     left:50%;
     transform: translate(-50%,-50%);
     z-index: 99;
@@ -14,10 +15,11 @@
 
 #description {
     align-content: center;
+    width: 50%;
 }
 
 #poster {
-    width: 30%;
+    width: 50%;
     border: greenyellow;
 }
 
@@ -68,7 +70,7 @@
     .modal{
       justify-items: center;
       display: none;
-      width: 100%
+      width: 100vw
     }
 
     #poster {
@@ -79,7 +81,20 @@
     }
     #description {
         font-size:.8rem;
+        width: 50%;
     }
 
   }
 
+  @media (max-width: 240px) {
+    .modal{
+    max-height: 100vw;
+    }}
+
+    #poster{
+        width:50% ;
+    }
+    #description{
+        width:50% ;
+        
+    }

@@ -1,16 +1,15 @@
-import React from 'react'
 import './MovieShow.css'
 
-export default ({ status, nome, poster, overview }) => {
+export default function ({status, nome, poster, overview}) {
   function openModal() {
-    let modal = document.querySelector('.modal')
+    let modal = document.querySelector('.modal');
     modal.style.display = 'flex';
     document.getElementById("poster").src = poster;
     document.getElementById("title").innerText = nome;
     document.getElementById("overview").innerText = overview;
   }
   return (
-    
+
     <div className="container">
       <div className="movieShow">
         <img onClick={openModal} className={status} src={poster} alt="poster" />
@@ -18,5 +17,4 @@ export default ({ status, nome, poster, overview }) => {
       </div>
     </div>
   )
-  
 }

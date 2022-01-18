@@ -24,8 +24,8 @@
 }
 
 .yes {
-  filter:grayscale(1);
-  opacity: .3;
+  filter:grayscale(.8);
+  opacity: .4;
 }
 
 .movieShow > img:hover {
