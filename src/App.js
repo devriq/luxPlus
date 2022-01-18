@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import MovieShow from './components/MovieShow'
 import Modal from './components/Modal';
-import './App.css'
+//import './App.css'
 
 const data = require('./data.json');
 

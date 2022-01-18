@@ -1,5 +1,6 @@
 import React from 'react'
-import './Modal.css'
+//import './Modal.css'
+
 
 
 export default function Modal () {
@@ -7,7 +8,6 @@ export default function Modal () {
         let modal = document.querySelector('.modal')
         modal.style.display = 'none'
     }
-
     return (
         <div className='modal'>
             <img onClick={closeModal} src="" id='poster' alt='poster' />
