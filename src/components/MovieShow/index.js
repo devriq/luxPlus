@@ -1,4 +1,4 @@
-//import './MovieShow.css'
+import './MovieShow.css'
 
 export default function ({status, nome, poster, overview}) {
   function openModal() {
