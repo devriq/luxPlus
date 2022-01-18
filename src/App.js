@@ -51,6 +51,9 @@ export default () => {
         {movieList.map((item, key) => (item.listNumber == k && <MovieShow status={item.status} key={key} nome={item.title} poster={item.poster} overview={item.overview} />))}
         
       </section>
+      <footer>
+        {k!='0' && <h6>Copyright © Devriq. All rights reserved.</h6>}
+      </footer>
     </div>
   )
 }

@@ -1,0 +1,28 @@
+.movieShow{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    
+}
+.movieShow img {
+    align-self: center;
+    transform: scale(0.9);
+}
+
+.yes{
+    opacity: .35;
+    filter: grayscale(1);
+}
+
+.movieShow img:hover {
+    transform: scale(.95);
+    filter: grayscale(0);
+    opacity: 1;
+    transition: all ease 0.4s;
+    border: .1rem solid greenyellow;
+}
+
+.movieShow h4{
+    align-self: center;
+    text-align: center;
+}
