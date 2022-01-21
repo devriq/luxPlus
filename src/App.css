@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;800&display=swap');
 
-*{
-    color:whitesmoke;
-    background-color: #010101;
-    font-family: 'Outfit', sans-serif;
-}
 
 html{
+    background-color: #010101;
+    color:whitesmoke;
     font-size: 62.5%;
+    font-family: 'Outfit', sans-serif;
 }
 
 
@@ -19,7 +17,7 @@ nav {
 }
 
 img {
-    width:200px;
+    width:150px;
 }
 
 img:hover {
@@ -38,7 +36,6 @@ nav ul{
 
 nav ul li {
     align-self: center;
-    color: whitesmoke;
     font-size:1.5em;
 }
 
@@ -48,9 +45,9 @@ nav ul li:hover{
 }
 
 nav button {
-    width: 150px;
-    background-color: #010101;
-    color:greenyellow;
+    width: 75px;
+    font-weight: 800;
+    background-color:greenyellow;
     border:.1rem solid greenyellow;
 }
 nav button:hover {

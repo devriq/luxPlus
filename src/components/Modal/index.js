@@ -1,8 +1,6 @@
 import React from 'react'
 import './Modal.css'
 
-
-
 export default function Modal () {
     function closeModal() {
         let modal = document.querySelector('.modal')
