@@ -3,21 +3,54 @@ import MovieShow from './components/MovieShow'
 import Modal from './components/Modal';
 import './App.css'
 
-const data = require('./data.json');
-const API = 'https://api.themoviedb.org/4/list/8175818?page=1&api_key=a79b231633cd9524b54133ecc5c8f1a5&language=pt-BR&sort_by=release_date.asc'
+const API1 = 'https://api.themoviedb.org/4/list/8175818?page=1&2&api_key=a79b231633cd9524b54133ecc5c8f1a5&language=pt-BR&sort_by=release_date.asc'
+const API2 = 'https://api.themoviedb.org/4/list/8175818?page=2&2&api_key=a79b231633cd9524b54133ecc5c8f1a5&language=pt-BR&sort_by=release_date.asc'
+const API3 = 'https://api.themoviedb.org/4/list/8175818?page=3&2&api_key=a79b231633cd9524b54133ecc5c8f1a5&language=pt-BR&sort_by=release_date.asc'
+const API4 = 'https://api.themoviedb.org/4/list/8175818?page=4&2&api_key=a79b231633cd9524b54133ecc5c8f1a5&language=pt-BR&sort_by=release_date.asc'
+const API5 = 'https://api.themoviedb.org/4/list/8175818?page=5&2&api_key=a79b231633cd9524b54133ecc5c8f1a5&language=pt-BR&sort_by=release_date.asc'
 
 export default () => {
   const [movieList, setMovieList] = useState([])
   const [k,setK] = useState('0');
   const [w,setW] = useState('0');
 
+
+
   useEffect(() => {
-    fetch(API)
+    let dataArr = [];
+    fetch(API1)
       .then((res)=>res.json())
       .then((data) => {
-        setMovieList(data['results']);
+      data['results'].forEach(item => {dataArr.push(item)})
+
+    fetch(API2)
+      .then((res)=>res.json())
+      .then((data) => {
+      data['results'].forEach(item => {dataArr.push(item)})          
+      });   
+      
+    fetch(API3)
+      .then((res)=>res.json())
+      .then((data) => {
+      data['results'].forEach(item => {dataArr.push(item)})          
+      });   
+    
+    fetch(API4)
+      .then((res)=>res.json())
+      .then((data) => {
+      data['results'].forEach(item => {dataArr.push(item)})          
+      });   
+
+    fetch(API5)
+      .then((res)=>res.json())
+      .then((data) => {
+      data['results'].forEach(item => {dataArr.push(item)})          
+      });   
+        setMovieList(dataArr);
         setW(data);
+        console.log(dataArr)
       })
+      
   }, [])
 
   function handleClick1(e) {
