@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/luxPlus/static/css/main.d1571dab.css",
-    "main.js": "/luxPlus/static/js/main.b854fdf7.js",
+    "main.css": "/luxPlus/static/css/main.e4c2d1dc.css",
+    "main.js": "/luxPlus/static/js/main.5c607e26.js",
     "index.html": "/luxPlus/index.html",
-    "main.d1571dab.css.map": "/luxPlus/static/css/main.d1571dab.css.map",
-    "main.b854fdf7.js.map": "/luxPlus/static/js/main.b854fdf7.js.map"
+    "main.e4c2d1dc.css.map": "/luxPlus/static/css/main.e4c2d1dc.css.map",
+    "main.5c607e26.js.map": "/luxPlus/static/js/main.5c607e26.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1571dab.css",
-    "static/js/main.b854fdf7.js"
+    "static/css/main.e4c2d1dc.css",
+    "static/js/main.5c607e26.js"
   ]
 }
