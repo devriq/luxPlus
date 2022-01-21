@@ -9,13 +9,14 @@ const API = 'https://api.themoviedb.org/4/list/8175818?page=1&api_key=a79b231633
 export default () => {
   const [movieList, setMovieList] = useState([])
   const [k,setK] = useState('0');
+  const [w,setW] = useState('0');
 
   useEffect(() => {
     fetch(API)
       .then((res)=>res.json())
       .then((data) => {
-        console.log(data['results']);
         setMovieList(data['results']);
+        setW(data);
       })
   }, [])
 
@@ -47,10 +48,10 @@ export default () => {
         <button>Search</button>        
       </nav>
       <section className="list"> 
-        {movieList.map((movie) => (k=='1'&& parseInt(movie.release_date.substr(0,4))<1995) && <MovieShow key={movie.id} {...movie} />)}
-        {movieList.map((movie) => (k=='2'&& parseInt(movie.release_date.substr(0,4))<2010 && parseInt(movie.release_date.substr(0,4))>=1995) && <MovieShow key={movie.id} {...movie} />)}
-        {movieList.map((movie) => (k=='3'&& parseInt(movie.release_date.substr(0,4))<2020 && parseInt(movie.release_date.substr(0,4))>=2010) && <MovieShow key={movie.id} {...movie} />)}
-        {movieList.map((movie) => (k=='4'&& parseInt(movie.release_date.substr(0,4))>=2020) && <MovieShow key={movie.id} {...movie} />)}
+        {movieList.map((movie) => (k=='1'&& parseInt(movie.release_date.substr(0,4))<1995) && <MovieShow key={movie.id} {...movie} status={w} />)}
+        {movieList.map((movie) => (k=='2'&& parseInt(movie.release_date.substr(0,4))<2010 && parseInt(movie.release_date.substr(0,4))>=1995) && <MovieShow key={movie.id} {...movie} status={w}/>)}
+        {movieList.map((movie) => (k=='3'&& parseInt(movie.release_date.substr(0,4))<2020 && parseInt(movie.release_date.substr(0,4))>=2010) && <MovieShow key={movie.id} {...movie} status={w}/>)}
+        {movieList.map((movie) => (k=='4'&& parseInt(movie.release_date.substr(0,4))>=2020) && <MovieShow key={movie.id} {...movie} status={w}/>)}
       </section>
       <footer>
         {k!=='0' && <h6>Powered by ©. All rights reserved.</h6>}
