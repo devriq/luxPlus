@@ -13,11 +13,13 @@ nav {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    max-height: 75px;
+    height: 100px;
 }
 
-img {
-    width:150px;
+nav img {
+    height:100%;
+    margin-left: 10px;
+
 }
 
 img:hover {
@@ -45,7 +47,7 @@ nav ul li:hover{
 }
 
 nav button {
-    width: 75px;
+    width: 100px;
     font-weight: 800;
     background-color:greenyellow;
     border:.1rem solid greenyellow;

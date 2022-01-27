@@ -1,6 +1,7 @@
+import React from 'react';
 import './MovieShow.css'
 
-export default function ({status, original_title, poster_path, overview, release_date, id}) {
+export default ({status, original_title, poster_path, overview, release_date, id}) => {
   function openModal() {
     let modal = document.querySelector('.modal');
     modal.style.display = 'flex';
@@ -10,7 +11,7 @@ export default function ({status, original_title, poster_path, overview, release
   }
 
   var a = `movie:${id}`
-  console.log(status['comments'][a])
+  //console.log(status['comments'][a])
   
   return (
     <div className="movieShow">
