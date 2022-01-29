@@ -3,19 +3,14 @@
     flex-direction: column;
     margin-top: 1rem;    
     position: relative;  
-    width: 300px;    
-    overflow: hidden;  
+    min-width: 30rem;    
+    overflow : hidden;  
     
 }
 .movieShow img {
     width: 100%;
     align-self: center;
     border: .1rem solid #010101;
-}
-
-.Yes{
-    opacity: .35;
-    filter: grayscale(1);
 }
 
 .movieShow img:hover{
@@ -25,11 +20,18 @@
     transition: all ease 0.4s;
     border: .1rem solid greenyellow;
 }
-.movieShow h3{
-    padding:.5rem;
+
+.Yes{
+    opacity: .35;
+    filter: grayscale(1);
+}
+
+.movieShow h2{
+    padding:1rem;
     margin:0;
     align-self: center;
     text-align: center;
+    line-height: 1;
 }
 
 .overviewInfo {
@@ -41,16 +43,19 @@
     right:0;
     max-height: 100%;
     transform: translateY(100%);
+    z-index: -1;
     
 }
 .movieShow:hover .overviewInfo{
     cursor: pointer;
     transition: all ease 0.5s;
+    z-index: 99;
     transform: translateY(0%);
 }
 
 .overviewInfo p{
-    padding:.5rem;
+    padding:2rem;
+    font-size: 1rem;
     margin:0;
     align-self: center;
     text-align: justify;
