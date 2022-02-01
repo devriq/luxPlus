@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8152082a13263f0c175314524183622c",
+    "revision": "bb738cfefd7f624483181da38031a61a",
     "url": "/luxPlus/index.html"
   },
   {
-    "revision": "d6ce2ae313064e693aac",
-    "url": "/luxPlus/static/css/main.baeac4be.chunk.css"
+    "revision": "880e563df8d52fa9a23a",
+    "url": "/luxPlus/static/css/main.c6a768d8.chunk.css"
   },
   {
     "revision": "597f10b12d976b5755d0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/luxPlus/static/js/2.7e087784.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d6ce2ae313064e693aac",
-    "url": "/luxPlus/static/js/main.c5ac0398.chunk.js"
+    "revision": "880e563df8d52fa9a23a",
+    "url": "/luxPlus/static/js/main.1885c291.chunk.js"
   },
   {
     "revision": "2ff98a0e15b874bd80a8",
