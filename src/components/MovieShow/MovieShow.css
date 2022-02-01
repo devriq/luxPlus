@@ -1,34 +1,35 @@
-.movieShow{
+.movieShow {
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;    
-    position: relative;  
-    min-width: 30rem;    
-    overflow : hidden;  
-    
+    width: 20rem;
+    overflow: hidden;
+    position: relative;
 }
+
 .movieShow img {
     width: 100%;
+    margin: auto;
+    object-fit: cover;
     align-self: center;
-    border: .1rem solid #010101;
+    border: 0.1rem solid #010101;
 }
 
-.movieShow img:hover{
+.movieShow img:hover {
     filter: grayscale(0);
-    transform: scale(.99);
+    transform: scale(0.99);
     opacity: 1;
     transition: all ease 0.4s;
-    border: .1rem solid greenyellow;
+    border: 0.1rem solid greenyellow;
 }
 
-.Yes{
-    opacity: .35;
+.Yes {
+    opacity: 0.35;
     filter: grayscale(1);
 }
 
-.movieShow h2{
-    padding:1rem;
-    margin:0;
+.movieShow h2 {
+    padding: 1rem;
+    margin: 0;
     align-self: center;
     text-align: center;
     line-height: 1;
@@ -36,30 +37,27 @@
 
 .overviewInfo {
     position: absolute;
-    opacity: .9;
+    opacity: 0.9;
     background-color: #111;
-    bottom:0;
-    left:0;
-    right:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     max-height: 100%;
     transform: translateY(100%);
     z-index: -1;
-    
 }
-.movieShow:hover .overviewInfo{
+
+.movieShow:hover .overviewInfo {
     cursor: pointer;
     transition: all ease 0.5s;
     z-index: 99;
     transform: translateY(0%);
 }
 
-.overviewInfo p{
-    padding:2rem;
+.overviewInfo p {
+    padding: 2rem;
     font-size: 1rem;
-    margin:0;
+    margin: 0;
     align-self: center;
     text-align: justify;
 }
-
-
-
