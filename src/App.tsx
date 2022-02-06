@@ -46,7 +46,7 @@ export default () => {
   return (
     <div className="page">
       <nav>
-        <a href='https://devriq.github.io/luxPlus'><img id="logo" src="https://document-export.canva.com/mvE5w/DAE1eamvE5w/151/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20220126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220126T230718Z&X-Amz-Expires=85349&X-Amz-Signature=a347be39e4dba89f8fcab7b1b65efa39f104c6b3cade940bd664358141cc654d&X-Amz-SignedHeaders=host&response-expires=Thu%2C%2027%20Jan%202022%2022%3A49%3A47%20GMT" alt="logIMGo"/></a>
+        <img id="logo" src={require('./assets/logo-luxplus.jpg')} alt="logIMGo"/>
         <ul>
           <li onClick={handleClick1}>1960-1994</li>
           <li onClick={handleClick2}>1995-2010</li>
@@ -71,7 +71,5 @@ export default () => {
     </div>
   )
 }
-function e(e: any) {
-  throw new Error('Function not implemented.');
-}
+
 

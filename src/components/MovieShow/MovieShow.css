@@ -1,63 +1,71 @@
 .movieShow {
     display: flex;
-    flex-direction: column;
-    width: 20rem;
+    flex-direction: row;
+    min-width: 32rem;
+    max-width: 40rem;
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+    margin:2rem;
+}
+
+
+.movieShow:hover {
+    cursor:pointer;
+    outline: 1px solid greenyellow;
+}
+
+.movieShow2 {
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    height: 30rem;
     overflow: hidden;
     position: relative;
 }
 
+
 .movieShow img {
-    width: 100%;
+    position:relative;
+    top:0%;
+    height: 100%;
+    width: 50%;
     margin: auto;
     object-fit: cover;
     align-self: center;
     border: 0.1rem solid #010101;
+    transition: all ease-in 300ms;
+    opacity:1;
 }
 
-.movieShow img:hover {
-    filter: grayscale(0);
-    transform: scale(0.99);
-    opacity: 1;
-    transition: all ease 0.4s;
-    border: 0.1rem solid greenyellow;
-}
 
 .Yes {
     opacity: 0.35;
     filter: grayscale(1);
 }
 
+.overviewInfo{
+    background-color: #010101;
+    height: 100%;
+    width:50%;
+    opacity:1;
+}
+
 .movieShow h2 {
-    padding: 1rem;
-    margin: 0;
-    align-self: center;
+    height: 15%;
+    margin-top: 2rem;
+    padding:0;
     text-align: center;
-    line-height: 1;
+    justify-self: center;
 }
 
-.overviewInfo {
-    position: absolute;
-    opacity: 0.9;
-    background-color: #111;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    max-height: 100%;
-    transform: translateY(100%);
-    z-index: -1;
-}
-
-.movieShow:hover .overviewInfo {
-    cursor: pointer;
-    transition: all ease 0.5s;
-    z-index: 99;
-    transform: translateY(0%);
-}
 
 .overviewInfo p {
+    height:85%;
     padding: 2rem;
-    font-size: 1rem;
+    font-size: .9rem;
     margin: 0;
     align-self: center;
     text-align: justify;
 }
+
