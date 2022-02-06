@@ -1,22 +1,14 @@
 {
   "files": {
-    "main.css": "/luxPlus/static/css/main.c6a768d8.chunk.css",
-    "main.js": "/luxPlus/static/js/main.1885c291.chunk.js",
-    "main.js.map": "/luxPlus/static/js/main.1885c291.chunk.js.map",
-    "runtime-main.js": "/luxPlus/static/js/runtime-main.b46a1f5a.js",
-    "runtime-main.js.map": "/luxPlus/static/js/runtime-main.b46a1f5a.js.map",
-    "static/js/2.7e087784.chunk.js": "/luxPlus/static/js/2.7e087784.chunk.js",
-    "static/js/2.7e087784.chunk.js.map": "/luxPlus/static/js/2.7e087784.chunk.js.map",
+    "main.css": "/luxPlus/static/css/main.3db2d407.css",
+    "main.js": "/luxPlus/static/js/main.19491a55.js",
+    "static/media/logo-luxplus.jpg": "/luxPlus/static/media/logo-luxplus.c518070a8dd873c211fe.jpg",
     "index.html": "/luxPlus/index.html",
-    "precache-manifest.b0a41ce83ab7f0508017e10e3b2cf0a0.js": "/luxPlus/precache-manifest.b0a41ce83ab7f0508017e10e3b2cf0a0.js",
-    "service-worker.js": "/luxPlus/service-worker.js",
-    "static/css/main.c6a768d8.chunk.css.map": "/luxPlus/static/css/main.c6a768d8.chunk.css.map",
-    "static/js/2.7e087784.chunk.js.LICENSE.txt": "/luxPlus/static/js/2.7e087784.chunk.js.LICENSE.txt"
+    "main.3db2d407.css.map": "/luxPlus/static/css/main.3db2d407.css.map",
+    "main.19491a55.js.map": "/luxPlus/static/js/main.19491a55.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b46a1f5a.js",
-    "static/js/2.7e087784.chunk.js",
-    "static/css/main.c6a768d8.chunk.css",
-    "static/js/main.1885c291.chunk.js"
+    "static/css/main.3db2d407.css",
+    "static/js/main.19491a55.js"
   ]
 }
