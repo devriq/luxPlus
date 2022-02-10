@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Listagem from "../Listagem";
 import './navBar.module.css'
 
-function NavBar(props: { movieList: any; }): JSX.Element {
+function NavBar(props: { movieList: any[], movieStatus: any[] }): JSX.Element {
     const [listNumber, setListNumber] = useState<string>('3');
 
 
@@ -21,7 +21,7 @@ function NavBar(props: { movieList: any; }): JSX.Element {
                 <li onClick={handleClick}>2021-2022</li>
             </ul>
         </nav>
-            <Listagem listNumber={listNumber} movieList={props.movieList} />
+            <Listagem listNumber={listNumber} movieList={props.movieList} movieStatus={props.movieStatus}/>
         </>
 
     )

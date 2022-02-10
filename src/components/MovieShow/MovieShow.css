@@ -34,13 +34,18 @@
     object-fit: cover;
     align-self: center;
     border: 0.1rem solid #010101;
-    transition: all ease-in 300ms;
     opacity:1;
+}
+
+.movieShow:hover img{
+    transition: all ease-in 300ms;
+    filter: grayscale(0);
 }
 
 
 .Yes {
     opacity: 0.35;
+    transition: all ease-in 300ms;
     filter: grayscale(1);
 }
 
